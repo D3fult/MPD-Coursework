@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Name: Onwuka Nnamdi
+Student Id: s1935121 -->
+
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DetailedActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/CardView.Dark"
+        android:text="Earthquake Incident Details"
+        android:textSize="24sp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/CardView.Dark"
+        android:text="Earthquake Title"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/CardView.Dark"
+        android:text="Earthquake Title"
+        android:textSize="17sp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/CardView.Dark"
+        android:text="Earthquake Description"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:textSize="17sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/CardView.Dark"
+        android:text="Occurance"
+        android:textSize="20sp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:textAppearance="@style/CardView.Dark"
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="17sp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
